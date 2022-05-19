@@ -49,7 +49,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .listed_items {
@@ -73,9 +73,9 @@ a {
 }
 
 .nav__list .btn-primary a {
-    outline: 2px solid red;
+    outline: 2px solid hsl(0, 100%, 50%);
     padding: var(--btn-padding);
-    color: black;
+    color: hsl(0, 0%, 0%);
     border-radius: var(--border-radius);
     -webkit-border-radius: var(--border-radius);
     -moz-border-radius: var(--border-radius);
@@ -88,7 +88,7 @@ a {
 }
 
 .nav__list .btn-primary a:hover {
-    background-color: red;
+    background-color: hsl(352, 97%, 29%);
     color: white;
     outline: none;
     border: none;
@@ -105,7 +105,7 @@ a {
     margin-left: 30px;
     object-fit: cover;
     object-position: 0 10px;
-    border: 2px solid red;
+    border: 2px solid hsl(0, 100%, 50%);
     border-radius: var(--border-radius);
     -webkit-border-radius: var(--border-radius);
     -moz-border-radius: var(--border-radius);
@@ -115,7 +115,7 @@ a {
 
 .hero h2 {
     margin-left: 100px;
-    color: red;
+    color: hsl(0, 100%, 50%);
     font-size: 50px;
     margin-top: -20px;
 }
@@ -216,7 +216,7 @@ a {
     width: 250px;
     height: 500px;
     margin-bottom: 100px;
-    outline: 2px solid wheat;
+    outline: 2px solid hsl(39, 77%, 83%);
     padding: 20px 20px;
     border-radius: 30px 0px 30px 0px;
     -webkit-border-radius: 30px 0px 30px 0px;
@@ -260,7 +260,7 @@ a {
     width: 250px;
     height: 500px;
     margin-bottom: 100px;
-    outline: 2px solid wheat;
+    outline: 2px solid hsl(39, 77%, 83%);
     padding: 20px 20px;
     border-radius: 30px 0px 30px 0px;
     -webkit-border-radius: 30px 0px 30px 0px;
@@ -305,7 +305,7 @@ a {
     width: 250px;
     height: 500px;
     margin-bottom: 100px;
-    outline: 2px solid wheat;
+    outline: 2px solid hsl(39, 77%, 83%);
     padding: 20px 20px;
     border-radius: 30px 0px 30px 0px;
     -webkit-border-radius: 30px 0px 30px 0px;
@@ -385,7 +385,7 @@ li {
 }
 
 .footer-list li a {
-    color: white;
+    color: hsl(0, 0%, 100%);
 }
 
 
@@ -416,7 +416,7 @@ select {
     width: 200px;
     padding: 10px 10px;
     outline: none;
-    border: 2px solid black;
+    border: 2px solid hsl(0, 0%, 0%);
 }
 
 .logo {
@@ -451,7 +451,7 @@ select {
     width: 250px;
     height: 500px;
     margin-bottom: 100px;
-    outline: 2px solid wheat;
+    outline: 2px solid hsl(39, 77%, 83%);
     padding: 20px 20px;
     border-radius: 30px 0px 30px 0px;
     -webkit-border-radius: 30px 0px 30px 0px;
@@ -495,7 +495,7 @@ select {
     width: 250px;
     height: 500px;
     margin-bottom: 100px;
-    outline: 2px solid wheat;
+    outline: 2px solid hsl(39, 77%, 83%);
     padding: 20px 20px;
     border-radius: 30px 0px 30px 0px;
     -webkit-border-radius: 30px 0px 30px 0px;
@@ -540,7 +540,7 @@ select {
     width: 250px;
     height: 500px;
     margin-bottom: 100px;
-    outline: 2px solid wheat;
+    outline: 2px solid hsl(39, 77%, 83%);
     padding: 20px 20px;
     border-radius: 30px 0px 30px 0px;
     -webkit-border-radius: 30px 0px 30px 0px;
