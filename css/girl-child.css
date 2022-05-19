@@ -1,0 +1,583 @@
+@font-face {
+    font-family: 'Milik';
+    src: url('/session9/font/Milik.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('/fonts/Gilroy-Medium.ttf') format('truetype');
+}
+
+ :root {
+    --human-right-red: hsl(4, 79%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+    --flutterwave-color: hsl(30, 96%, 57%);
+    --disable-btn: hsl(0, 0%, 93%);
+    --btn-padding: 0.9375rem 1.875rem;
+    --border-radius: 0.625rem;
+    --font-header: 'Gilroy-Medium', sans-serif;
+}
+
+html {
+    font-family: 'Gilroy-Medium';
+    src: url(/fonts/Gilroy-Medium.ttf) format("truetype");
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+
+
+/* ====Global Styles */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 72.8125rem;
+    margin: 0 auto;
+}
+
+
+/* ===========MAIN STYLE=========== */
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.listed_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-right: 90px;
+}
+
+.items {
+    color: hsl(0, 0%, 0%);
+}
+
+.listed_items {
+    margin-top: 60px;
+}
+
+.btn-primary {
+    margin-top: 40px;
+}
+
+.nav__list .btn-primary a {
+    outline: 2px solid red;
+    padding: var(--btn-padding);
+    color: black;
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+    transition-property: all;
+    transition-delay: .3s;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.nav__list .btn-primary a:hover {
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.hero {
+    display: inline-flex;
+    margin-top: 70px;
+}
+
+.hero_img {
+    width: 800px;
+    min-height: 500px;
+    margin-left: 30px;
+    object-fit: cover;
+    object-position: 0 10px;
+    border: 2px solid red;
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+}
+
+.hero h2 {
+    margin-left: 100px;
+    color: red;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+
+/* content section styling started here */
+
+.awareness_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    grid-auto-rows: 60px;
+    grid-auto-flow: dense;
+    margin-top: 150px;
+}
+
+.awareness_pics {
+    width: 370px;
+    height: 260px;
+    object-fit: cover;
+    object-position: 100% 90%;
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+    gap: 100px;
+}
+
+.content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    font-size: xx-large;
+}
+
+
+/* bg section styling started here */
+
+.bg {
+    width: 100%;
+    background-color: hsl(192, 26%, 50%);
+    margin-top: 50px;
+    border-radius: 10px 10px;
+    -webkit-border-radius: 10px 10px 0;
+    -moz-border-radius: 10px 10px 0;
+    -ms-border-radius: 10px 10px 0;
+    -o-border-radius: 10px 10px 0;
+}
+
+.queen-of-justice-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.queen-of-justice-content img {
+    margin-left: 50px;
+    object-fit: cover;
+    object-position: 20% 50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.police_record {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+    width: 500px;
+}
+
+
+/* activists section styling starts here */
+
+.activists {
+    margin-top: 50px;
+}
+
+.activists h1 b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supporters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+
+.angelina_general {
+    width: 250px;
+    height: 500px;
+    margin-bottom: 100px;
+    outline: 2px solid wheat;
+    padding: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+
+.activists .angelina_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angelina .angelina_img img {
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+}
+
+.angelina h3,
+.angelina h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angelina p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* femi falana styling*/
+
+.femi_general {
+    width: 250px;
+    height: 500px;
+    margin-bottom: 100px;
+    outline: 2px solid wheat;
+    padding: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+
+.activists .femi_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.femi .femi_img img {
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+}
+
+.femi h3,
+.femi h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.femi p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* Josephine styling */
+
+.josephine_general {
+    width: 250px;
+    height: 500px;
+    margin-bottom: 100px;
+    outline: 2px solid wheat;
+    padding: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+
+.activists .josephine_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.josephine .josephine_img img {
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+}
+
+.josephine h3,
+.josephine h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.josephine p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+.sponsor_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+/* footer styling starts here */
+
+footer {
+    height: 60vh;
+    margin-top: 50px;
+    background-color: hsl(352, 97%, 29%);
+    padding: 50px 50px;
+    margin-top: 50px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.headline {
+    margin-left: 70px;
+}
+
+.footer-items .one {
+    margin-bottom: 100px;
+}
+
+.footer-items .four {
+    margin-bottom: 170px;
+}
+
+li {
+    padding: 30px;
+}
+
+.footer-list li a {
+    color: white;
+}
+
+
+/* donate.html style starts here */
+
+form {
+    margin-top: 200px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-top: 30px;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 20px 20px;
+    -webkit-border-radius: 20px 20px;
+    -moz-border-radius: 20px 20px;
+    -ms-border-radius: 20px 20px;
+    -o-border-radius: 20px 20px;
+}
+
+select {
+    width: 200px;
+    padding: 10px 10px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.policy,
+.policy_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+/* victimstory.html starts here */
+
+.victims {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+
+.abel_general {
+    width: 250px;
+    height: 500px;
+    margin-bottom: 100px;
+    outline: 2px solid wheat;
+    padding: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+
+.abel_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abel .abel_img img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+}
+
+.abel h3,
+.abel h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abel p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jude_general {
+    width: 250px;
+    height: 500px;
+    margin-bottom: 100px;
+    outline: 2px solid wheat;
+    padding: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+
+.jude_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jude .jude_img img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+}
+
+.jude h3,
+.jude h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jude p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
+
+.mary_general {
+    width: 250px;
+    height: 500px;
+    margin-bottom: 100px;
+    outline: 2px solid wheat;
+    padding: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    -webkit-border-radius: 30px 0px 30px 0px;
+    -moz-border-radius: 30px 0px 30px 0px;
+    -ms-border-radius: 30px 0px 30px 0px;
+    -o-border-radius: 30px 0px 30px 0px;
+}
+
+.mary_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mary_img img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    object-position: 70% 90%;
+    border-radius: 30px 0 30px 0;
+    -webkit-border-radius: 30px 0 30px 0;
+    -moz-border-radius: 30px 0 30px 0;
+    -ms-border-radius: 30px 0 30px 0;
+    -o-border-radius: 30px 0 30px 0;
+}
+
+.mary h3,
+.mary h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mary p {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+}
