@@ -73,7 +73,7 @@ a {
 }
 
 .nav__list .btn-primary a {
-    outline: 2px solid hsl(0, 100%, 50%);
+    outline: 2px solid hsl(352, 97%, 29%);
     padding: var(--btn-padding);
     color: hsl(0, 0%, 0%);
     border-radius: var(--border-radius);
@@ -105,7 +105,7 @@ a {
     margin-left: 30px;
     object-fit: cover;
     object-position: 0 10px;
-    border: 2px solid hsl(0, 100%, 50%);
+    border: 2px solid hsl(352, 97%, 29%);
     border-radius: var(--border-radius);
     -webkit-border-radius: var(--border-radius);
     -moz-border-radius: var(--border-radius);
@@ -115,7 +115,7 @@ a {
 
 .hero h2 {
     margin-left: 100px;
-    color: hsl(0, 100%, 50%);
+    color: hsl(352, 97%, 29%);
     font-size: 50px;
     margin-top: -20px;
 }
